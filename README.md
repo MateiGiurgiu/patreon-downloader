@@ -8,7 +8,7 @@ Built for archiving tutorial content (Substance Designer, Maya/ZBrush, Substance
 
 - **Python 3.10+** (with pip)
 - **yt-dlp** — download the latest `yt-dlp.exe` from [yt-dlp releases](https://github.com/yt-dlp/yt-dlp/releases/latest) and place it in the project root
-- **FFmpeg** — required by yt-dlp for merging video+audio. Download from [gyan.dev](https://www.gyan.dev/ffmpeg/builds/) (get the `essentials` build). Place `ffmpeg.exe` and `ffprobe.exe` in the project root
+- **FFmpeg** — required by yt-dlp for merging video+audio. Use the [yt-dlp custom FFmpeg builds](https://github.com/yt-dlp/FFmpeg-Builds#ffmpeg-static-auto-builds) (patched for yt-dlp compatibility, **not** the Python package). Place `ffmpeg.exe` and `ffprobe.exe` in the project root
 - **Deno** (or Node.js) — JavaScript runtime required by yt-dlp for YouTube downloads. Install via `winget install DenoLand.Deno`
 - **A Patreon subscription** to the creator you want to download from
 
