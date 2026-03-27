@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:gist.github.com)",
+      "Bash(pip --version)",
+      "Bash(python -c \"import requests; print\\(''requests:'', requests.__version__\\)\")",
+      "Bash(python -c \"import bs4; print\\(''bs4:'', bs4.__version__\\)\")",
+      "Bash(python -c \"import re; print\\(''re: built-in''\\)\")",
+      "Bash(python -c \"import json; print\\(''json: built-in''\\)\")",
+      "Bash(python -c \"import pathlib; print\\(''pathlib: built-in''\\)\")",
+      "WebFetch(domain:www.patreon.com)",
+      "Bash(python -m venv .venv)",
+      "Bash(source .venv/Scripts/activate)",
+      "Bash(pip install:*)",
+      "Bash(pip freeze:*)",
+      "Bash(python -c \"from main import main; print\\(''All imports OK''\\)\")",
+      "Bash(python main.py --help)",
+      "Bash(python main.py)",
+      "Bash(echo \"Exit code: $?\")",
+      "WebFetch(domain:pypi.org)",
+      "Bash(grep -E \"\\\\.\\(py|json\\)$\")",
+      "Read(///Vault221/Databank/patreon-downloader/3dEx/**)",
+      "Read(///Vault221/Databank/patreon-downloader/**)",
+      "Bash(python -c \"import py_compile; py_compile.compile\\(''downloader.py'', doraise=True\\); py_compile.compile\\(''main.py'', doraise=True\\); print\\(''OK''\\)\")"
+    ]
+  }
+}

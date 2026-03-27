@@ -1,0 +1,8 @@
+{
+  "session_id": "N2e8S2KJdqI8RegJicn-RgpOBWbZQD6NBEu56mzEZiU",
+  "creator_url": "https://www.patreon.com/c/3dEx/posts",
+  "output_dir": "//Vault221/Databank/patreon-downloader",
+  "ytdlp_path": "./yt-dlp.exe",
+  "youtube_cookies": "./cookies.txt",
+  "request_delay_seconds": 1.0
+}
